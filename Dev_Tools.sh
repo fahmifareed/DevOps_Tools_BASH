@@ -6,13 +6,6 @@ echo -e "\033[1;96m E-mail 📩 info@fahmi.xyz\033[m"
 sudo cat /etc/os-release | grep "Ubuntu" > /dev/null 2>&1
 if [ $? -eq 0 ]
 then
-#echo $USER | grep "root" > /dev/null 2>&1
-#if [ $? -eq 0 ]
-#then
-#tput bold
-#echo "***Please execute this script as Normal user.***"
-#tput sgr0
-#else
 echo -e "\033[1;91m Below mentioned tool 💻⚙️  Software can be installed individually as per your choice\033[m"
 tput bold
 echo -e "\033[1;94m 1️⃣  Git ⚙             8️⃣    Tomcat ⚙\033[m"
