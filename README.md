@@ -1,21 +1,21 @@
-# DevOps Tools BASH Scripts Installation Script
+# DevOps Tools Installer
 
-## Overview
-This script automates the installation of several popular DevOps tools on Linux Ubuntu servers. It's designed to help DevOps engineers quickly set up a new environment with all necessary tools available.
-
-## Requirements
-- Ubuntu Linux (The script checks for Ubuntu and proceeds with installation only if it's detected).
-- Internet connection (for downloading packages).
-- Sudo privileges.
+This Bash script automates the installation of various DevOps tools on Debian-based Linux systems. It provides a user-friendly interface to select and install tools with ease.
 
 ## Usage
-1. Ensure you have sudo privileges and your system is updated.
-2. Download the script to your Ubuntu server.
-3. Make the script executable: `chmod +x devops_tools.sh`.
-4. Run the script: `./devops_tools.sh`.
-5. Follow the on-screen prompts to select and install the tools.
+
+1. Clone or download the `devops_tools_installer.sh` script to your local machine.
+2. Open a terminal and navigate to the directory where the script is located.
+3. Run the script using the following command:
+
+    ```bash
+    ./devops_tools_installer.sh
+    ```
+
+4. Follow the on-screen prompts to select and install the desired DevOps tools.
 
 ## Supported Tools
+
 - **Git**: Version control system designed to handle everything from small to very large projects with speed and efficiency.
 - **Java**: Necessary for running applications developed in Java.
 - **Maven**: Build automation tool used primarily for Java projects.
@@ -31,7 +31,10 @@ This script automates the installation of several popular DevOps tools on Linux 
 - **Node Exporter**: Prometheus exporter for hardware and OS metrics exposed by *NIX kernels.
 - **Kubernetes**: Open-source system for automating deployment, scaling, and management of containerized applications.
 
-## Contact Information
-- **FAHMI FAREED** 🐳 DevOps Engineer
-- **E-mail**: info@fahmi.xyz
+## Contact
 
+For questions or assistance, please contact:
+
+Fahmi Fareed  
+LinkedIn: [fahmifareed](https://linkedin.com/in/fahmifareed)  
+GitHub: [fahmifareed](https://github.com/fahmifareed)
