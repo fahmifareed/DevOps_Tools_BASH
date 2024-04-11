@@ -1,4 +1,4 @@
-# DevOps Tools Installation Script
+# DevOps Tools BASH Scripts Installation Script
 
 ## Overview
 This script automates the installation of several popular DevOps tools on Linux Ubuntu servers. It's designed to help DevOps engineers quickly set up a new environment with all necessary tools available.
